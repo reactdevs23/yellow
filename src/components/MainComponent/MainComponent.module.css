@@ -1,0 +1,123 @@
+.wrapper {
+  max-width: 991px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 50px 80px;
+  width: 100%;
+}
+/* .headingAndDate {
+  display: flex;
+  gap: 50px;
+
+  align-items: flex-start;
+} */
+.dateContainer {
+  padding: 20px 15px;
+  background: var(--secondaryColor);
+}
+.date {
+  color: var(--primaryColor);
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 1.5px;
+
+  text-orientation: mixed;
+  writing-mode: vertical-lr;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 120px;
+  width: 100%;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.line {
+  width: 70px;
+  height: 10px;
+  background: var(--secondaryColor);
+}
+
+.heading {
+  color: var(--secondaryColor);
+  font-size: 50px;
+  line-height: 120%;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.postName {
+  border: 3px solid var(--secondaryColor);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  max-width: 600px;
+}
+.postName p {
+  color: var(--secondaryColor);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.5px;
+  padding: 8px 20px;
+}
+.searchContainer {
+  padding: 10px 15px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondaryColor);
+}
+.searchIcon {
+  max-width: 36px;
+}
+.barContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.7fr 1fr;
+  gap: 10px;
+}
+.bar {
+  width: 100%;
+
+  background: var(--secondaryColor);
+}
+.sendYourCv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+.label {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.5px;
+}
+.email {
+  display: inline-block;
+  color: var(--primaryColor);
+  padding: 10px 25px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2px;
+  background: var(--secondaryColor);
+}
